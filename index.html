@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chef</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">cook.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Repics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Content</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-danger col-lg-2">Login</button>
+          </div>
+        </div>
+      </nav>
+      <section class="about mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Cook Like a Pro with Our <span>Easy</span> and <span>Tasty</span>
+                        Recipes</h3>
+                    <p>From quick and easy recipes to gourmet delights, we have something for every taste and occasion. </p>
+                    <button type="button" class="btn btn-danger w-75">Search for Recipes</button>    
+                </div>
+                    <div class="col-lg-6">
+                        <img src="image/chef.png" alt="">
+                    </div>
+            </div>
+        </div>
+      </section>
+      <section class="perp mt-5">
+          <div class="container">
+          <div class="top text-center">
+              <h1>Popular Recipes You Can't Miss</h1>
+              <p>From expert-level classics to wallet-friendly options, our featured recipes are sure to impress</p>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap " >
+                <div class=" card" style="width: 16rem; border-radius: 11px;">
+                    <div style="height: 120px;">
+                        <img src="image/IMG-20250316-WA0008.jpg" style="border: 1px solid black; border-radius: 11px;" class="card-img-top " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Creamy Tomato Basil Soup</h5>
+                      <p class="card-text">Two comforting cups of soup with just 5 ingredients and 10 minutes of prep time.                    </p>
+                      <a href="#" class="btn btn-primary">See Full Recipe</a>
+                    </div>
+                </div>
+                <div class=" card" style="width: 16rem; border-radius: 11px;">
+                    <div style="height: 120px;">
+                        <img src="image/IMG-20250316-WA0010.jpg" style="border: 1px solid black; border-radius: 11px;" class="card-img-top " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Spicy Beef Tacos</h5>
+                      <p class="card-text">These tacos are loaded with juicy beef seasoned with bold spices and topped with fresh cilantro.</p>
+                      <a href="#" class="btn btn-primary">See Full Recipe</a>
+                    </div>
+                </div>
+                <div class=" card" style="width: 16rem; border-radius: 11px;">
+                    <div style="height: 120px;">
+                        <img src="image/IMG-20250316-WA0011.jpg" style="border: 1px solid black; border-radius: 11px;" class="card-img-top " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Parmesan</h5>
+                      <p class="card-text">The classic Italian favorite made with crispy breaded chicken, melted cheese, and a rich tomato sauce.</p>
+                      <a href="#" class="btn btn-primary">See Full Recipe</a>
+                    </div>
+                </div>
+                <div class=" card" style="width: 16rem; border-radius: 11px;">
+                    <div style="height: 120px;">
+                        <img src="image/IMG-20250316-WA0012.jpg" style="border: 1px solid black; border-radius: 11px;" class="card-img-top " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Chocolate Chip Cookies</h5>
+                      <p class="card-text">These cookies are the perfect blend of chewy and crunchy, with plenty of gooey chocolate chips.</p>
+                      <a href="#" class="btn btn-primary">See Full Recipe</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+      </section>
+      <section class="cuisine mt-5 text-center">
+        <div class="container">
+            <h3>Explore by Cuisine Type</h3>
+            <p>Discover new flavors and cooking techniques with our diverse selection of cuisines.</p>
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0013.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0014.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0015.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0016.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0017.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0018.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="image/IMG-20250316-WA0019.jpg" />
+    </swiper-slide>
+  </swiper-container>
+
+        </div>
+      </section>
+      <section class="menu mt-5 ">
+        <div class="container " style="background-color: rgba(226, 221, 221, 0.589); border-radius: 11px;">
+        <div class="row">
+            <div class="col-lg-6 pt-3 ">
+                <h1 class="ps-4">Join Our Latest Contest</h1>
+                <p class="ps-4">Discover new flavors and cooking techniques with our diverse selection of cuisines.</p>
+                <button type="button" class="btn btn-danger ms-4 ">Enter Contest</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="image/pp.png" alt="">
+                </div>
+                </div>
+                </div>
+                </section>
+
+                <section class="repic mt-5">
+                    <div class="container">
+                        <div class="top text-center">
+                            <h3>Repic collection</h3>
+                            <p>From quick weeknight dinners to elaborate weekend projects, we have recipes for every lifestyle and taste.</p>
+                        </div>
+                        <div class="middile row " >
+                            <div class="card-group">
+                                <div class="card">
+                                  <img src="image/IMG-20250316-WA0022.jpg" class="card-img-top " alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Crispy Garlic Chicken</h5>
+                                    <p class="card-text">Crispy garlic chicken is a delicious dish that combines tender chicken breasts with a flavorful garlic butter sauce.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <img src="image/IMG-20250316-WA0023.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Crunchy Mushroom Risotto</h5>
+                                    <p class="card-text">This creamy risotto is packed with earthy mushrooms and a hint of nutty parmesan cheese.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <img src="image/IMG-20250316-WA0024.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Sweet Potato Croquettes</h5>
+                                    <p class="card-text">  These golden croquettes are filled with mashed sweet potatoes and spiced with cinnamon and nutmeg.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <img src="image/IMG-20250316-WA0025.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Chocolate Butter Cupcakes</h5>
+                                    <p class="card-text">Rich and moist cupcakes filled with chocolate ganache and topped with a smooth buttercream frosting.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="bottom text-center mt-2">
+                            <button type="button" class="btn btn-danger col-lg-2">See Full Recipe</button>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="blog mt-5">
+                    <div class="container">
+                        <div class="top text-center">
+                            <h3>Latest Blog</h3>
+                            <p>Some quick and easy dinner ideas to elevate your weekday projects.</p>
+                        </div>
+                        <div class="bottomm">
+                            <div class="slide">
+
+            
+                                <div class="item" style="background-image: url(./image/IMG-20250316-WA0008.jpg);">
+                                    <div class="content">
+                                        <div class="name">Healthy Salad</div>
+                                        <div class="des">A fresh and colorful mix of nutrients!</div>
+                                        <button>Try it</button>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-image: url(./image/IMG-20250316-WA0010.jpg);">
+                                    <div class="content">
+                                        <div class="name">Healthy Wrap</div>
+                                        <div class="des">A delicious grilled wrap packed with fresh veggies and special sauce.</div>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-image: url(./image/IMG-20250316-WA0011.jpg);">
+                                    <div class="content">
+                                        <div class="name">Fruit Omelette</div>
+                                        <div class="des">A healthy omelette with veggies, cheese, and fresh fruits.</div>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-image: url(./image/IMG-20250316-WA00012.jpg);">
+                                    <div class="content">
+                                        <div class="name">Grilled Chicken</div>
+                                        <div class="des">A juicy grilled chicken seasoned with herbs and lemon.</div>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-image: url(image/IMG-20250316-WA0013.jpg);">
+                                    <div class="content">
+                                        <div class="name">Cheesy Burger</div>
+                                        <div class="des">A juicy burger loaded with cheese, fresh lettuce, and a crispy patty.</div>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-image: url(image/IMG-20250316-WA0015.jpg);">
+                                    <div class="content">
+                                        <div class="name">Avocado Salad</div>
+                                        <div class="des">A fresh salad with avocado, chicken, and eggs.</div>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                    
+                            <div class="button">
+                                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>                    
+                        </div>
+                        <button type="button" class="btn btn-danger text-center">View More</button>
+                    </div>
+                </section>
+                <section class="footer bg-dark mt-5">
+                  <div class="container text-center pt-3">
+                    <h2>Cook.</h2>
+                    <p>From quick and easy recipes to gourmet delights, we have something for every taste and occasion.</p>
+                    <div style="border: 1px solid #2d2d2d;"></div>
+                    <ul class="footer-links">
+                      <li><a href="#" >Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Recipes</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                    <hr>
+                    <div class="row">
+                      <div class="col-6">copy right &copy; 2025</div>
+                      <div class="col-6">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </section>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+      <script>
+        let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+})
+
+prev.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+})
+      </script>
+</body>
+</html>
